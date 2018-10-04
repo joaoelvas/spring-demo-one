@@ -4,6 +4,10 @@ public class BasketballCoach implements Coach {
 	
 	FortuneService fortuneService;
 	
+	public BasketballCoach() {
+		
+	}
+	
 	public BasketballCoach(FortuneService theFortuneService) {
 		fortuneService = theFortuneService;
 	}
